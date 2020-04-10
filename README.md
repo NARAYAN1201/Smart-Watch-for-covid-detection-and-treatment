@@ -12,7 +12,7 @@ Due to Covid-19 it is being important to track the people, so that there will be
 <---Hardware and Software Requirements--->
   
   1.ESP8266
-  2.GPS UBlocks Neo M8N
+  2.GPS UBlox Neo M8N
   3.Sparkfun Pulse Oximeter and Heart rate sensor(MAX30101)
   4.MAX30205 Temprature Sensor
   5.Blynk App
