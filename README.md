@@ -26,6 +26,8 @@ And ESP module is used for interfacing.
 The placement of the sensors are the most important thing to get the right information or data accordingly.
 Like the placement of the  heart sensor should be on the finger tip or at the earlobe.It basically detects the blood rate under the three skin layer.
 
+The MAX30205 temperature sensor accurately measures temperature.This device converts the temperature measurements to digital form using a high-resolution, sigma-delta, analog-to-digital converter (ADC).
+
 
 <---Hardware and Software Requirements--->
   
