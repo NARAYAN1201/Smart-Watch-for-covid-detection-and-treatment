@@ -1,11 +1,6 @@
 <----Title of the project---->
 
-
 Smart watch for tracking people in isolation
-
-
-
-
 
 <----Description-->
 
@@ -15,7 +10,18 @@ on your mobile app(for now used Blynk app).
 Due to Covid-19 it is being important to track the people, so that there will be a social distancing and the spreading of the virus can be  stopped.
 Our proposed system serves as a solution to this problem, it keeps tracking the health status of the person who are kept in isolation for checking wether they show symptoms of corona virus or not like high temprature and sends the health status like heart rate,  body temperature to blynk app to the higher authority in every min. 
 it would be an effective solution for keeping track of person in isolation.
+For detection of loaction we use gps module which provides information in the GPS standard language, NMEA. 
+NMEA stands for National Marine Electronics Association, and in the world of GPS, it is a standard data format supported by GPS manufacturers.
 
+Understanding NMEA Sentences
+NMEA sentences start with the $ character, and each data field is separated by a comma.
+$GPGSA – GPS DOP and active satellites
+$GPGSV – Detailed GPS satellite information
+$GPGLL – Geographic Latitude and Longitude
+$GPRMC – Essential GPS pvt (position, velocity, time) data
+$GPVTG – Velocity made good
+
+And ESP module is used for interfacing. 
 
 
 <---Hardware and Software Requirements--->
@@ -33,7 +39,8 @@ it would be an effective solution for keeping track of person in isolation.
 
 <---Process Flow--->
 
-
+Firstly, the NMEA information is provided by the gps module and that information is used by the esp module to get the exact location.
+And that location is being sended to the mobile app(Blynk).
 
 
 <---Data Flow Diagram--->
