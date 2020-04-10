@@ -23,6 +23,9 @@ $GPVTG – Velocity made good
 
 And ESP module is used for interfacing. 
 
+The placement of the sensors are the most important thing to get the right information or data accordingly.
+Like the placement of the  heart sensor should be on the finger tip or at the earlobe.It basically detects the blood rate under the three skin layer.
+
 
 <---Hardware and Software Requirements--->
   
@@ -40,10 +43,13 @@ And ESP module is used for interfacing.
 <---Process Flow--->
 
 Firstly, the NMEA information is provided by the gps module and that information is used by the esp module to get the exact location.
-And that location is being sended to the mobile app(Blynk).
+Heart rate senor continuosly send the heart rate of the person to the esp and keep showing it on the mobile display. The MAX30205(Body temperature sensor) will sense the body temperature and send these information to the ESP8266 and that information is being sended to the mobile app(Blynk).On the display of the app there will be three rows showing three different data.
+For the use of blynk app ESP module should be connected to it properly.
+
+Note: Placement of the sensors should be in a proper place for the correct data.
 
 
-<---Data Flow Diagram--->
+
 
 
 
