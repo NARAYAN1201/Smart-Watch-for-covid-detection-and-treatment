@@ -1,6 +1,6 @@
 <----Title of the project---->
 
-Smart watch for tracking people in isolation
+Smart-Watch-for-covid-detection-and-treatment
 
 <----Description-->
 
