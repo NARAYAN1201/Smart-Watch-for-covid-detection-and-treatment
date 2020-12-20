@@ -1,8 +1,6 @@
-<----Title of the project---->
+# Smart-Watch-for-covid-detection-and-treatment
 
-Smart-Watch-for-covid-detection-and-treatment
-
-<----Description-->
+## Description
 
 Smart watch is basically a wearable minicomputer or a mini smartphone in the form of a wristwatch. 
 This smart watch has many capabilities like GPS navigation, monitors your heart pulse rate, body temprature adn show all the information 
@@ -29,7 +27,7 @@ Like the placement of the  heart sensor should be on the finger tip or at the ea
 The MAX30205 temperature sensor accurately measures temperature.This device converts the temperature measurements to digital form using a high-resolution, sigma-delta, analog-to-digital converter (ADC).
 
 
-<---Hardware and Software Requirements--->
+## Hardware and Software Requirements
   
   1.ESP8266
   
@@ -42,7 +40,7 @@ The MAX30205 temperature sensor accurately measures temperature.This device conv
   5.Blynk App
 
 
-<---Process Flow--->
+## Process Flow
 
 Firstly, the NMEA information is provided by the gps module and that information is used by the esp module to get the exact location.
 Heart rate senor continuosly send the heart rate of the person to the esp and keep showing it on the mobile display. The MAX30205(Body temperature sensor) will sense the body temperature and send these information to the ESP8266 and that information is being sended to the mobile app(Blynk).On the display of the app there will be three rows showing three different data.
